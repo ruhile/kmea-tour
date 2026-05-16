@@ -1,0 +1,170 @@
+.heading{
+    font-size: 120px;
+    text-align: center;
+    padding-top: 15%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+.menu {
+    float: left;
+    width: 50%;
+    padding-left: 70px; 
+    
+}
+button{
+    margin-inline: 100px;
+    height: 90px;
+    width: 300px;
+    background-color: white;
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    font-size: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url(5bf55b183fa85-wallpaper-preview.jpg)  ; */
+    /* color: white; */
+    
+}
+
+header {
+    background-color: white;
+    padding: 15px 0;
+    border-bottom: 1px solid #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+.search-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-icon span {
+    font-size: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background-color: #f9f8f6;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media ul li {
+    display: inline-block;
+}
+
+.social-media ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #666;
+}
+
+.newsletter {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.newsletter p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
